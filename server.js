@@ -12,6 +12,7 @@ var handleRequest = function(request, response) {
  console.log("Running On:" ,host, "| Total Requests:", ++requests,"| App Uptime:", (new Date() -
 star>
 }
+                                                                                    
 var www = http.createServer(handleRequest);
 www.listen(8080,function () {
  startTime = new Date();;
